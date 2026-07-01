@@ -2,38 +2,45 @@
 
 ## Overview
 
-This folder contains the complete **OctoAcme project management framework**, guiding teams through all phases of project delivery: from initial conception through retrospective and continuous improvement.
+This folder contains the complete **OctoAcme project management framework**, designed to guide teams through all phases of project delivery—from initial conception through retrospective and continuous improvement.
 
-OctoAcme is built on five core principles:
-- **Customer-first**: Prioritize customer value and usability
-- **Iterative delivery**: Deliver small, testable increments
-- **Clear ownership**: Each project has named PM and Product Lead
-- **Data-informed decisions**: Measure impact and iterate based on evidence
-- **Psychological safety**: Encourage feedback and learning
+OctoAcme emphasizes **customer-first delivery**, **iterative progress**, **clear ownership**, **data-informed decisions**, and **psychological safety**. These principles ensure consistent, repeatable execution across all projects while maintaining team alignment and stakeholder transparency.
+
+## Project Management Lifecycle
+
+OctoAcme projects follow a structured five-phase lifecycle:
+
+1. **Initiation** — Validate the business need, align stakeholders, and authorize work
+2. **Planning** — Break work into shippable increments, estimate scope, and identify risks
+3. **Execution** — Build, test, review, and iterate with daily standups and quality gates
+4. **Release** — Deploy to production with standardized checklists and rollback planning
+5. **Close & Retrospective** — Capture learnings and drive continuous improvement
 
 ## Quick Navigation
 
-Browse by project phase or role:
+Browse process guidance by project phase or role:
 
 ### Project Phases
-
-| Phase | Document | Purpose |
-|-------|----------|---------|
-| **Initiation** | [Project Initiation Guide](./octoacme-project-initiation.md) | Define problem statement, stakeholders, and initial timeline |
-| **Planning** | [Project Planning](./octoacme-project-planning.md) | Create actionable backlog, estimate scope, and identify dependencies |
-| **Execution** | [Execution & Tracking](./octoacme-execution-and-tracking.md) | Day-to-day delivery, quality assurance, and progress tracking |
-| **Release** | [Release & Deployment Guide](./octoacme-release-and-deployment.md) | Standardize releases and manage deployment risk |
-| **Retrospective** | [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) | Capture learnings and drive improvements |
+- **[Initiation Guide](./octoacme-project-initiation.md)** — Define problem statement, stakeholders, and initial timeline. Includes the Project One-pager template and decision gates.
+- **[Planning Guide](./octoacme-project-planning.md)** — Create actionable backlog, estimate scope, and identify dependencies. Covers sprint planning and risk management.
+- **[Execution & Tracking](./octoacme-execution-and-tracking.md)** — Day-to-day delivery, quality assurance, and progress tracking. Includes team rhythm, PR workflow, and blocker escalation.
+- **[Release & Deployment Guide](./octoacme-release-and-deployment.md)** — Standardize releases and manage deployment risk. Covers pre-release requirements, rollback procedures, and incident response.
+- **[Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)** — Capture learnings and drive improvements. Includes retrospective structure and action item tracking.
 
 ### Cross-functional Guidance
+- **[Project Management Overview](./octoacme-project-management-overview.md)** — High-level introduction to OctoAcme principles, core roles, key artifacts, and communication cadence.
+- **[Risk Management & Communication](./octoacme-risks-and-communication.md)** — Identify, assess, and mitigate risks. Includes risk register template, escalation paths, and stakeholder communication strategies.
+- **[Roles and Personas](./octoacme-roles-and-personas.md)** — Understand responsibilities by role: Project Managers, Product Managers, Developers, and QA teams.
 
-| Topic | Document | For |
-|-------|----------|-----|
-| **Overview** | [Project Management Overview](./octoacme-project-management-overview.md) | High-level introduction to roles, principles, and lifecycle |
-| **Risk & Communication** | [Risk Management & Communication](./octoacme-risks-and-communication.md) | Identify, manage, and communicate risks and dependencies |
-| **Roles & Personas** | [Roles and Personas](./octoacme-roles-and-personas.md) | Understand responsibilities by role (PM, PdM, Developers, QA) |
+## Core Principles
 
-## OctoAcme Project Management Lifecycle
+- **Customer-first** — Prioritize customer value and usability above all else
+- **Iterative delivery** — Deliver small, testable increments and gather feedback early
+- **Clear ownership** — Each project has a named Project Manager (PM) and Product Lead
+- **Data-informed decisions** — Measure impact and iterate based on evidence
+- **Psychological safety** — Encourage feedback, learning, and blameless retrospectives
+
+## Project Lifecycle Details
 
 ### 1. Initiation
 **Goal**: Validate the business need and authorize planning work.
@@ -153,6 +160,16 @@ Every project maintains these core artifacts:
 3. **Ongoing**: Follow [Execution & Tracking](./octoacme-execution-and-tracking.md) cadence
 4. **At Release**: Execute [Release & Deployment Guide](./octoacme-release-and-deployment.md)
 5. **At Completion**: Run [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
+
+## Purpose of This Documentation
+
+This documentation centralizes scattered project management knowledge into a **single source of truth**, enabling:
+- ✅ Faster onboarding for new team members
+- ✅ Consistent, repeatable project execution across the organization
+- ✅ Clear escalation paths and risk management
+- ✅ Searchable, versioned artifacts in a Copilot Space
+- ✅ Reduced single-person dependency risk through documented processes
+- ✅ Alignment on roles, communication, and decision-making
 
 ## Process Improvement
 
